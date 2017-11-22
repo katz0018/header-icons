@@ -38,7 +38,7 @@ li a {
   font-size: 1.125rem;
 }
 
-li a:hover {
+li:hover {
   background-color: #a63f38;
 }
 
