@@ -29,7 +29,7 @@ figure {
 
 h1 {
   color: #fff;
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, "serif";
   background-color: #d05c2e;
   width: 100%;
   text-align: center;
@@ -39,7 +39,7 @@ h1 {
 }
 
 nav ul li {
-  font-family: "Merriweather", serif;
+  font-family: Merriweather, "serif";
   background-color: #d05c2e;
   text-align: center;
   list-style-type: none;
