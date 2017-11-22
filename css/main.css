@@ -18,12 +18,13 @@ figure {
 .grain-left {
   width: 40px;
   float: left;
+  margin-top: .7rem;
 }
 
 .grain-right {
   width: 40px;
   float: right;
-  overflow: visible;
+  margin-top: .7rem;
 }
 
 h1 {
@@ -33,7 +34,7 @@ h1 {
   width: 100%;
   text-align: center;
   margin:0;
-  padding: .5em 0 0;
+  padding: .5em;
   font-size: 2rem;
 }
 
