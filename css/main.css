@@ -6,9 +6,24 @@ html {
   box-sizing: inherit;
 }
 
-body{
+body {
   line-height: 1.5;
   margin: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+.grain-left {
+  width: 40px;
+  float: left;
+}
+
+.grain-right {
+  width: 40px;
+  float: right;
+  overflow: visible;
 }
 
 h1 {
@@ -28,8 +43,17 @@ nav ul li {
   text-align: center;
   list-style-type: none;
   float: left;
-  width: 30%;
+  width: 33.33%;
   padding: .4rem 0;
+  border-bottom: 1px solid #a63f38;
+}
+
+ul li:first-child {
+  border-right: 1px solid #a63f38;
+}
+
+ul li:last-child {
+    border-left: 1px solid #a63f38;
 }
 
 li a {
@@ -45,4 +69,5 @@ li:hover {
 ul{
   margin: 0;
   padding-left: 0;
+  border-top: 1px solid #a63f38;
 }
