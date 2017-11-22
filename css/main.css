@@ -49,7 +49,7 @@ nav ul li {
   border-bottom: 1px solid #a63f38;
 }
 
-li:hover {
+ul li:hover {
   background-color: #a63f38;
 }
 
